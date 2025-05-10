@@ -1,6 +1,4 @@
-Step 5: Create a Jenkinsfile
-Create a file named Jenkinsfile in the root of your repository with the following content:
-groovypipeline {
+pipeline {
     agent any
     
     triggers {
